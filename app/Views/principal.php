@@ -12,8 +12,8 @@
 </head>
 
 <body>
-
-<div class="container-fluid "> 
+<section class="container-fluid">
+ 
 <br>
 
 <!-- boton whatsaap -->
@@ -34,36 +34,37 @@
 <br>
 
 
-<div class="Iam d-flex justify-content-center">
+                                  <div class=" Iam d-flex justify-content-center ">
 
-<p>Te ofrecemos </p>
-<b>
-  <div class="res innerIam d-flex justify-content-center">
-    PRESTAMOS <br/>
-    EN EL ACTO <br /> 
-    CON O SIN VERAZ<br />
-    A SOLA FIRMA<br />
-    ACCEDE YA!! <br>
-     MUTAL PILARENSES<br>
-    </div>
-</b>
+                                  <p class="d-flex justify-content-center">Te ofrecemos </p>
+                                                  <b>
+                                                                    <div class=" innerIam d-flex justify-content-center">
+                                                                      PRESTAMOS <br/>
+                                                                      EN EL ACTO <br /> 
+                                                                      CON O SIN VERAZ<br />
+                                                                      A SOLA FIRMA<br />
+                                                                      ACCEDE YA!! <br>
+                                                                      MUTAL PILARENSES<br>
+                                                                      </div>
+                                                  </b>
+                                  <br>
+                                  </div>
 <br>
-</div>
 <br>
-<br>
-  <div class="d-grid gap-2 col-6 mx-auto">
-  <a  href="<?php echo base_url().'/front/solicitud/'?>" class="btn btn-warning sombra1"  type="solicitud"><img  src="<?= base_url('assets/img/2.png') ?>" >Soliciud de Préstamos <br> </a>
-    <br>
-  <a  href="<?php echo base_url().'/front/requisitos/'?>" class="btn btn-warning sombra1" type="requisitos"> <img  src="<?= base_url('assets/img/3.png') ?>" >Enviar Requisitos</a>
-    <br>
-  <a href="<?php echo base_url().'/front/documentacion/'?>" class="btn btn-warning sombra1" type="button"><img  src="<?= base_url('assets/img/4.png') ?>" >Firmar Documentación</a>
-    <br>
-                      
-  </div>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <a  href="<?php echo base_url().'/front/solicitud/'?>" class="btn btn-warning sombra1"  type="solicitud"><img  src="<?= base_url('assets/img/2.png') ?>" >Soliciud de Préstamos <br> </a>
+            <br>
+          <a  href="<?php echo base_url().'/front/requisitos/'?>" class="btn btn-warning sombra1" type="requisitos"> <img  src="<?= base_url('assets/img/3.png') ?>" >Enviar Requisitos</a>
+            <br>
+          <a href="<?php echo base_url().'/front/documentacion/'?>" class="btn btn-warning sombra1" type="button"><img  src="<?= base_url('assets/img/4.png') ?>" >Firmar Documentación</a>
+            <br>
+                              
+          </div>
 
 
 <!-- telefono -->
-<h1 class="telefono d-flex justify-content-center"> TELEFONOS: </h1>
+<h1 class="telefono  res d-flex justify-content-center"> TELEFONOS: </h1>
 
   <figure class=" d-flex justify-content-center ">
   
@@ -83,20 +84,21 @@
 
 <br>
 <br>
+</section>
 
-</div>
 <footer class="py-5 bg-blue-full img-fluid">
-    <div class="container-xl ">
-        <hr class="bg-white">
-        <div class="row text-white font-sans d-flex justify-content-center ">
-       
-            comercial@mutualpilarenses.com.ar
-       
-       
-          
-        <hr class="bg-white">
-        
-    </div>
+                        <div>
+                           
+                            <div class="row text-white font-sans d-flex justify-content-center ">
+                            <hr class="bg-white">
+                          
+                            comercial@mutualpilarenses.com.ar
+                          
+                          
+                              
+                            <hr class="bg-white">
+                          </div>
+                       </div>  
     <!-- /.container -->
 </footer>
 

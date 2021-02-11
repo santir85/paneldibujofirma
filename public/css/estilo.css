@@ -20,6 +20,7 @@ color : rgb(255, 0, 76);}
 .Iam p {
   height: 50px;
   float: left;
+  width: 100%;
   
 }
 .Iam b {
@@ -28,6 +29,7 @@ color : rgb(255, 0, 76);}
   position: relative;
   height: 50px;
   top: 40px;
+  width: 100%;
 }
 .Iam .innerIam {
   display: inline-block;
@@ -36,6 +38,7 @@ color : rgb(255, 0, 76);}
   white-space: nowrap;
   top: 0;
   left: 0;
+  width: 100%;
 
 
 /*animation*/

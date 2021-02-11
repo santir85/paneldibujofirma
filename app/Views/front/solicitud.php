@@ -14,7 +14,7 @@
  <img class=" img-fluid" src="<?= base_url('assets/img/8.png') ?>" >
 </figure>
 
-    <section>
+    <section class="container-fluid">
     <div >
         <div >
             <div >
