@@ -38,7 +38,7 @@
 
 <p>Te ofrecemos </p>
 <b>
-  <div class="innerIam d-flex justify-content-center">
+  <div class="res innerIam d-flex justify-content-center">
     PRESTAMOS <br/>
     EN EL ACTO <br /> 
     CON O SIN VERAZ<br />
@@ -86,12 +86,12 @@
 
 </div>
 <footer class="py-5 bg-blue-full img-fluid">
-    <div class="container-fluid ">
+    <div class="container-xl ">
         <hr class="bg-white">
-        <div class="row text-white font-sans text-center">
-        <p class="m-0 text-center text-white px-3">
-            <h2>comercial@mutualpilarenses.com.ar</h2>
-        </p>
+        <div class="row text-white font-sans d-flex justify-content-center ">
+       
+            comercial@mutualpilarenses.com.ar
+       
        
           
         <hr class="bg-white">
